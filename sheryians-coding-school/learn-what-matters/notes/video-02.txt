@@ -1,0 +1,26 @@
+LEARN WHAT MATTERS - VIDEO 02
+
+1 - Nodejs overview and installation 
+
+    - Nodejs is a JavaScript runtime environment. 
+    - It is primarily a huge amounts of C++ code that has been taken from Chrome's V8 engine, which is wrapped in JS code which allows developers to prgramme servers using JavaScript.
+
+2 - Import and Export 
+
+3 - How to run code 
+
+4 - npm 
+    - packages
+        - installation
+        - usage
+        - how to print results
+        - figlet and onelinerjoke
+
+5 - Express
+    - overview
+    - use case
+    - routing 
+        - what 
+        - types
+        - GET : data is visible 
+        - POST : data is not visible 
