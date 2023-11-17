@@ -1,0 +1,14 @@
+LEARN WHAT MATTERS - VIDEO 01
+
+1 - Internet
+
+    1.1 - What it is?
+    1.2 - How it works?
+    
+2 - Important terms to know
+    - Server-client architecture
+    - ISP
+    - DNS, DNP
+    - HTTP, HTTPs and difference between them
+        
+
