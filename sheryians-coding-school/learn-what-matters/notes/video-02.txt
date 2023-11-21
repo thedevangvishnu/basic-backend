@@ -7,7 +7,12 @@ LEARN WHAT MATTERS - VIDEO 02
 
 2 - Import and Export 
 
+    - syntax for exporting: module.exports = data you want to export. Will always be a single entity.
+    - syntax for importing: require("name of file which is exporting")
+
 3 - How to run code 
+
+    - Code is run using the "node" keyword with the file name in the terminal
 
 4 - npm 
     - packages
