@@ -1,0 +1,39 @@
+LEARN WHAT MATTERS - VIDEO 03 | EpressJS
+
+1 - NodeJS vs ExpressJS
+
+    - NodeJS    
+        - a js runtime environment that is used to create servers
+        - has the capability and built-in functionalities that can create servers
+        - creating servers using HTTP in nodejs is extremely difficult, cumbersome and verbose
+    - ExpressJS
+        - a framework that helps to write code for creating servers and APIs.
+        - can be only used if one has node. Node is the main thing
+        - creating servers using express is much easier and beginner friendly
+        - express at the end of the day, uses http present inside node to create serves.
+
+2 - ExpressJS 
+
+    - A simple, unopinionated and flexible framework for Nodejs that is used to create web and mobile applications and also build APIs.
+    - It makes designing and building web applications easier by providing a set of tools to manage HTTP requests, defining routing, managing middleware and more.
+    - Mainly used for ruouting. Ohter usage for express include server-side management (data handling, request-response handling), building APis
+
+    - Characteristics:
+        - simplicity: simple and unopinionated that allows developers to use it as they see it.
+        - flexbility: allows to integrate other libraries and packages to build on top of it.
+        - middleware: easy to add and manage various functionalities through middleware in the request-response cycle.
+        - routing: defining and managing routes is easier
+    
+
+    - Routing
+        - Routes
+            - "route" refers to the mapping between the client-requested URL (with a particular end-point path) and the server-response to that request. 
+            - simply stated, routes are just URLs with particular path that are requested from user. "/", "/profile", "/contact", "/user/lkasfjasfljsdf" are all routes.
+
+        - Routing refers to the "process of defining and managing routes"
+    - ejs
+
+3 - Middleware
+    - what
+    - req, res, next
+    - control
