@@ -15,11 +15,26 @@ LEARN WHAT MATTERS - VIDEO 02
     - Code is run using the "node" keyword with the file name in the terminal
 
 4 - npm 
-    - packages
-        - installation
-        - usage
-        - how to print results
-        - figlet and onelinerjoke
+
+    - Node Package Manager (well know full form but not anymore).
+    - It's like a playstore of packages and modules that can be used in the development process.
+    - Earlier, it was node and js specific but now, npm has a wider ecosystem, having packages and mofules for almost anything or any tech stack. Hence, node package manager was dropped and now npm has no official full form.
+
+    - Primary commands to remember
+        - npm install
+        - npm update
+        - npm uninstall
+
+    - Packages
+        - A collection of code and related resources that are bundled together to perform a specific set of action or provide specific feature.
+        - Characteristics:
+            - modular: self-contained and reusable and can be added independently into any project without causing conflicts.
+            - encapsulation and abstration: hide internal details and implementation 
+        - Installation
+            - npm install <package-name>
+        - Usage
+            - using a package is thoroughly described in the package's official page on npm
+
 
 5 - Express
     - overview
