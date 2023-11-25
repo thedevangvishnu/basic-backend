@@ -37,3 +37,15 @@ LEARN WHAT MATTERS - VIDEO 03 | EpressJS
     - what
     - req, res, next
     - control
+  
+4 - Template Engines
+
+    - "Templates" are files that have embedded dynamic code along with static markup code. 
+    - These are tools or frameworks that allow you to embed dynamic content to static markup files.
+    - EJS
+        - Embedded JavaScript is a popular template engine for NodeJS and JavaScript applications.
+        - Setup
+            - install: npm i ejs
+            - configure: app.set("view engine", "ejs")
+            - views folder: create "views" folder and ejs files into it
+            - render: instead of using res.send(), use res.render() and as input provide the name of ejs file in views folder. e.g. - res.render("index") .... and not ("index.ejs")
