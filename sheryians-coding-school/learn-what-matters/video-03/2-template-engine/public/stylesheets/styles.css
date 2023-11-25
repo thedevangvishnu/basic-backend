@@ -57,7 +57,7 @@ i {
   right: 0;
   opacity: 0.4;
   z-index: -1;
-  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  background: rgb(6, 6, 97);
 }
 .navbar::before {
   content: "";
@@ -68,7 +68,7 @@ i {
   right: 0;
   opacity: 0.4;
   z-index: -1;
-  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  background: rgb(2, 2, 82);
 }
 .nav-item a {
   color: #fff !important;
