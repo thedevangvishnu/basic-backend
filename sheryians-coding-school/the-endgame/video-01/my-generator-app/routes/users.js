@@ -1,9 +1,13 @@
-var express = require('express');
-var router = express.Router();
+// setup mongodb and mongoose
+const mongoose = require("mongoose");
+mongoose.connect("mongodb://127.0.0.1:27017/generator-app-db");
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+// create schema and model
+const userSchema = mongoose.Schema({
+  username: String,
+  password: String,
+  name: String,
+  age: Number,
 });
 
-module.exports = router;
+mongoose.model("users", userSchema);
