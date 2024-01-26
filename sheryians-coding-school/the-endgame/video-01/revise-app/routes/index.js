@@ -9,8 +9,8 @@ instead of app.get() we now use router.get()
 everything else remains as usual. 
 */
 
-const express = require("express");
-const router = express.Router();
+var express = require("express");
+var router = express.Router();
 const userModel = require("./users");
 
 /* GET home page. */
@@ -20,13 +20,19 @@ router.get("/", function (req, res, next) {
 
 // Basic CRUD
 // Create
-router.get("/create", async function (req, res, next) {
-  const user = await userModel.create({
+router.get("/users", async function (req, res, next) {
+  const users = await userModel.create({
     username: "Devang",
     age: 24,
     email: "dv080499@gmail.com",
   });
-  res.send(user);
+  res.send(users);
+});
+
+// reading
+router.get("/allusers", async function (req, res) {
+  const allUsers = await userModel.find();
+  res.send(allUsers);
 });
 
 module.exports = router;

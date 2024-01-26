@@ -8,7 +8,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/practice-db");
 const userSchema = mongoose.Schema({
   username: String,
   email: String,
-  password: String,
   age: Number,
 });
 
